@@ -1,0 +1,12 @@
+{
+    "printWidth": 80,   //ширина строки
+    "tabWidth": 2,      //ширина (к-во) отступов для каждой линии
+    "useTabs": false,   //пробел-пробел
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "proseWrap": "always"
+  }
