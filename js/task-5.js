@@ -19,7 +19,7 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-const countryName = prompt();
+const countryName = prompt('Введите страну');
 
 const CANCELED_BY_USER = 'Отменено пользователем!';
 const NO_DELIVERY = 'В выбранную страну доставка недоступна.';
@@ -33,9 +33,9 @@ let country;
 if (countryName === null) {
   message = CANCELED_BY_USER;
 } else {
-  country = countryName[0].toUpperCase() + countryName.slice(1).toLowerCase(); // Write code on this line
+  country = countryName[0].toUpperCase() + countryName.slice(1).toLowerCase(); 
   switch (country) {
-  // Write code under this line
+  
     case CHINA:
       price = 100;
       break;
@@ -53,7 +53,7 @@ if (countryName === null) {
   }
 }
 
-if (price > 0) { // Write code on this line
+if (price > 0) { 
   message = `Доставка в ${country} будет стоить ${price} кредитов`;
 } 
 

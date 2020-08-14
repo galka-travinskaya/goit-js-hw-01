@@ -59,7 +59,7 @@ const CANCELED_BY_USER = 'Отменено пользователем!';
 const ACCESS_DENIED = 'Недостаточно средств на счету!';
 
 let totalPrice = orderPieces * pricePerDroid; // Write code on this line
-let balanceCredit = credits - totalPrice; // Write code on this line
+let balanceCredit = credits - totalPrice; // credits -= totalPrice
 let message;
 
 // Write code under this line
