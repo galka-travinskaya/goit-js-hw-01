@@ -1,7 +1,7 @@
 {
-    "printWidth": 80,   //ширина строки
-    "tabWidth": 2,      //ширина (к-во) отступов для каждой линии
-    "useTabs": false,   //пробел-пробел
+    "printWidth": 80,   
+    "tabWidth": 2,      
+    "useTabs": false,   
     "semi": true,
     "singleQuote": true,
     "trailingComma": "all",

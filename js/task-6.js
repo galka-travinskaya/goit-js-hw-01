@@ -9,16 +9,18 @@
 // в случае некорректного ввода, показывай alert с текстом 'Было введено не число, попробуйте еще раз', при этом результат 
 //prompt плюсовать к общей сумме не нужно, после чего снова пользователю предлагается ввести число в prompt.
 
-let input = prompt();
+
+let input;
 let total = 0;
-const value = Number(input);
-
-if (total += value) {
-    console.log (total);
-} else if (value !== Number) {
-    alert('Было введено не число, попробуйте еще раз');
-} else
-
-
-
-
+while ((input = prompt("Введите число"))) {
+  input = Number(input);
+  if (input) {
+    total += input;
+    console.log("total:", total);
+  } else {
+    alert("Введите число");
+  }
+}
+if (input === null) {
+  alert(`Общая сумма чисел равна ${total}`);
+}
